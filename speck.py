@@ -2,6 +2,10 @@ import pyttsx3
 
 # تهيئة المحرك
 engine = pyttsx3.init()
+
+voices = engine.getProperty('voices')
+engine.setProperty('voice', voices[1].id)
+
 print("welcome to python speck\n==================================\n")
 while True:
 
