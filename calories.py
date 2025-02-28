@@ -132,4 +132,3 @@ while True: #تكرار العملية حتى يطلب العميل التوقف
             food.display_calories()# طباعة النتيجة
     else:
         break 
-       
